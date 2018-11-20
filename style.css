@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 18px;
+    background-color: #777;
+    width: 960px;
+}
+
+.header, .nav, .sec, .aside, .footer {
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+.headers, .paragraph {
+    background-color: #ebebeb;
+    color: #777;
+    text-align: center;
+    width: 100%;
+}
+
+div, footer {
+    width: 800px;
+}
+
+.header, .nav, footer {
+    height: 50px;
+    margin-left: 80px;
+}
+
+.wrapper{
+    width: 100%;
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    background-color: #777;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.sec{
+    float: left;
+    width: 450px;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 20px;
+
+}
+
+.article{
+    clear: both;
+    overflow: auto;
+    background-color: #777;
+    color: #ebebeb;
+    position: relative;
+    bottom: -40px;
+    width: 80%;
+    height: 200px;
+    margin: 20px; 
+    padding: 25px;
+      
+}
+
+.headers{
+    position: relative;
+    bottom: -8px;
+    padding: 1px;
+}
+
+.paragraph{
+    position: relative;
+    bottom: -20px;
+    padding: 1px;
+}
+.aside{
+    float: right;
+    width: 300px;
+    height: 400px;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 60px;
+    left: 0px;
+    padding-bottom: 10px;
+}
